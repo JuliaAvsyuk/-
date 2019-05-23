@@ -1,0 +1,14 @@
+const value = 543;
+const halfValue = value/2; // 271.5
+ 
+Math.round(halfValue); // 272
+Math.floor(halfValue); // 271
+
+Right shift operator: 
+value >> 1; // 543/2=271
+value >> 2; // 271/2=135
+value >> 3; // 135/2=67
+value >> 4; // 67/2=33
+value >> 5; // 33/2=16
+
+
